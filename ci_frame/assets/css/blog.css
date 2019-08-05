@@ -1,0 +1,18 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12.07.2019, 14:18:50
+    Author     : glo-agent
+*/
+
+.footer .col-md-6, .footer{
+    padding: 0;
+}
+.footer {
+    margin-top: 20px !important;
+    border-top: 1px solid #bebebe;
+    padding-top: 10px;
+}

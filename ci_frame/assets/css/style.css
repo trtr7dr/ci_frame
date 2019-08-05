@@ -1,0 +1,198 @@
+@font-face{font-family:"Whitney-Book";src:url("../fonts/Whitney-Book.otf");}
+body{
+    font-family: Whitney-Book !important;
+}
+.logo_an {
+    -webkit-transition: all 2s linear;
+    -moz-transition: all 2s linear;
+    -o-transition: all 2s linear;
+    transition: all 2s linear;
+}
+.logos {
+    position: absolute;
+    width: 80px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.row{
+    margin: 0;
+}
+p#log_0 {
+    margin-left: 90px;
+    font-size: 20px;
+    padding: 15px;
+}
+img.dop_logo {
+    width: 80px;
+    padding: 10px;
+    float: right;
+}
+
+.d_block{
+    text-align: right;
+}
+
+a{
+    font-size: 20px;
+}
+.header {
+    box-shadow: 0px 12px 20px 0px #ccc;
+}
+.col-md-12.main {
+    background: #f5f5f5;
+    height: 100vh;
+    z-index: 1;
+    padding: 0 5%;
+}
+
+h1 {
+    padding-top: 25vh;
+    font-weight: bolder;
+}
+p {
+    font-size: 20px;
+}
+p.lab {
+    font-size: 36px;
+    font-weight: 100;
+    line-height: 40%;
+    margin-bottom: 10vh;
+}
+
+li {
+    font-size: 20px;
+}
+
+.but1 {
+    background: #F44336;
+    width: 6vw;
+    height: 6vw;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 2.2vw;
+    /* position: absolute; */
+    font-weight: bolder;
+    color: white;
+    mix-blend-mode: multiply;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    float: left;
+    margin-top: 30px;
+}
+
+.but1:hover, .but2:hover{
+    transform: scale(2);
+
+}
+
+.but2 {
+    margin-top: 30px;
+    background: #03A9F4;
+    width: 6vw;
+    height: 6vw;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 2.2vw;
+    /* position: absolute; */
+    font-weight: bolder;
+    color: white;
+    mix-blend-mode: multiply;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    float: left;
+    margin-left: 30px;
+}
+
+
+
+.col-md-4 {
+    cursor: pointer;
+    border-right: 1px solid #bebebe;
+    mix-blend-mode: multiply;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    z-index: 1;
+}
+.footer .col-md-4:first-child{
+    border-left: 1px solid #bebebe;
+}
+
+/*
+top: 0;
+    min-height: 100vh !important;
+    margin-top: -90vh;
+    width: 99vw;
+    background: #f5f5f5;
+    left: 0;
+    padding: 0;
+*/
+
+div#news, div#doc, div#otdel {
+    top: 100vh;
+    position: fixed;
+    z-index: 3;
+    opacity: 0;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    background: white;
+    padding: 40px;
+    height: calc(90vh - 50px);
+    width: 100%;
+}
+
+.close{
+    width: 50px;
+    cursor: pointer;
+    float: right;
+    opacity: .5 !important;
+}
+.close:hover{
+    opacity: 1 !important;
+}
+
+img#log_v {
+    z-index: 2;
+    filter: blur(0.1px);
+    mix-blend-mode: darken;
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+
+.paginate {
+    font-size: 20px;
+    letter-spacing: 10px;
+    margin-top: 80px;
+}
+
+iframe {
+    width: 100%;
+}
+
+.main img {
+    max-width: 100%;
+    height: auto;
+}
+
+.feedback input[type="input"] {
+    min-width: 50%;
+    font-size: 20px;
+}
+
+.feedback textarea {
+    font-size: 20px;
+    min-width: 50%;
+}
+
+.col-md-8.feedback {
+    margin-bottom: 200px;
+}
